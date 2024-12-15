@@ -3,7 +3,7 @@
 A full-stack web application for managing and discovering campus events. This platform allows administrators to create and manage events while enabling students to browse, filter, and RSVP to various campus activities.
 
 ## Features
-
+Link to demo - https://campus-event-snowy.vercel.app/
 - **User Authentication**
   - Secure login and registration system
   - Role-based access control (Admin/User)
