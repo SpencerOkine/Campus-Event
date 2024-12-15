@@ -11,7 +11,7 @@ const ProfilePage = () => {
     const fetchUserEvents = async () => {
       try {
         const token = localStorage.getItem('token');
-        const response = await fetch(`http://localhost:5001/api/users/events`, {
+        const response = await fetch(`https://campus-event-6.onrender.com/api/users/events`, {
           headers: {
             'Authorization': `Bearer ${token}`
           }

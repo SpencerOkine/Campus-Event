@@ -33,7 +33,7 @@ const CalendarView = () => {
 
   const fetchEvents = async () => {
     try {
-      const response = await fetch('http://localhost:5001/api/events');
+      const response = await fetch('https://campus-event-6.onrender.com/api/events');
       const data = await response.json();
       
       // Properly format the events for the calendar

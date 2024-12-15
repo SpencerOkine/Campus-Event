@@ -26,7 +26,7 @@ const EditEvent = () => {
         }
 
         console.log('Fetching event:', eventId);
-        const response = await fetch(`http://localhost:5001/api/events/${eventId}`, {
+        const response = await fetch(`https://campus-event-6.onrender.com/api/events/${eventId}`, {
           method: 'GET',
           headers: {
             'Authorization': `Bearer ${token}`,
