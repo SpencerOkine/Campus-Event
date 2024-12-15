@@ -45,4 +45,8 @@ A full-stack web application for managing and discovering campus events. This pl
 
 ## Installation
 
+<<<<<<< HEAD
 1. Clone the repository 
+=======
+1. Clone the repository
+>>>>>>> 2238956ca58c2b5cc780b5d489148b3d59c92fe8
