@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
 import { useAuth, AuthProvider } from './context/AuthContext';
 import HomePage from './pages/HomePage';
-import LoginPage from './pages/loginpage';
+import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import EventsPage from './pages/EventsPage';
 import CreateEvent from './pages/CreateEvent';
